@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Outfit';
+    color: #212529;
+    line-height: 1;
+
+    display: flex;
+    justify-content: center;
+}
+
+table
+{
+    width: 800px;
+    border-collapse: collapse;
+}
+
+thead th
+{
+    background-color: #099268;
+    color: #fff;
+}
+
+th,
+td
+{
+    text-align: left;
+    padding: 16px 24px;
+    /* border: 1px solid #343a40; */
+}
+
+tbody tr:nth-child(odd)
+{
+    background-color: #e9ecef;
+}
+
+tbody tr:nth-child(even)
+{
+    background-color: #ced4da;
+}

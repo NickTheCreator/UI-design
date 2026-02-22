@@ -1,0 +1,93 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: 'Inter';
+    background-color: #edf2ff;
+    font-size: 24px;
+}
+
+.accordion
+{
+    width: 850px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.show
+{
+    border-top: 4px solid #4263eb;
+}
+
+.card
+{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 28px;
+    row-gap: 22px;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.685);
+    padding: 22px;
+}
+
+.number,
+.header
+{
+    font-weight: 500;
+}
+
+.header
+{
+    font-size: 26px;
+}
+
+.icon
+{
+    height: 24px;
+    width: 24px;
+}
+
+.btn{
+    border: none;
+    border-radius: 50%;
+    background-color: #edf2ff;
+
+    height: 24px;
+    width: 24px;
+
+    cursor: pointer;
+}
+
+.text-box
+{
+    font-size: 22px;
+
+    grid-column: 2;
+}
+
+.text-box p
+{
+    margin-bottom: 16px;
+    line-height: 1.6;
+}
+
+.text-box ul
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.text-box li
+{
+    font-size: 18px;
+    font-weight: 300;
+
+    margin-left: 18px;
+}

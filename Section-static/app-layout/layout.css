@@ -1,0 +1,106 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    font-family: 'Montserrat', sans-serif;
+    color: #343a40;
+    font-size: 24px;
+
+}
+
+.container
+{
+    text-align: center;
+
+    display: grid;
+    grid-template-columns: 80px 320px 1fr 320px;
+    grid-template-rows: 80px 1fr;
+
+    height: 100vh;
+}
+
+button
+{
+    border: none;
+    background-color: #5f3dc4;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 24px; 
+
+    display: inline-block;
+
+    cursor: pointer;
+}
+
+.btn-menu:last-child{
+    background-color: red;
+    margin-left: auto;
+    /* margin-left:auto ; */
+}
+
+.section-container
+{
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+    flex-shrink: 0;
+}
+
+.section-email
+{
+    background-color: #777777;
+    padding: 24px 48px;
+    margin: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav,
+section,
+main,
+aside
+{
+    padding-top: 16px;
+}
+
+
+nav
+{
+    background-color: #343a40;
+    color: #fff;
+
+    grid-row: 1/-1;
+}
+
+menu
+{
+    background-color: #7048e8;
+    color: #fff;
+    padding: 0 24px;    
+    
+    grid-column: 2/-1;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+section
+{
+    background-color: #e9ecef;
+
+    overflow: scroll;
+}
+
+aside
+{
+    background-color: #e9ecef;
+}
